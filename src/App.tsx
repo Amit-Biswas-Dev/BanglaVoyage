@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Tours from "./pages/Tours";
 import Destinations from "./pages/Destinations";
-import TourDetails from "./pages/TourDetails";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
@@ -14,14 +13,10 @@ function App() {
     <BrowserRouter>
       <Routes>
 
+        {/* Public Pages */}
         <Route path="/" element={<Home />} />
 
         <Route path="/tours" element={<Tours />} />
-
-        <Route
-          path="/tours/:id"
-          element={<TourDetails />}
-        />
 
         <Route
           path="/destinations"
@@ -38,6 +33,7 @@ function App() {
           element={<Contact />}
         />
 
+        {/* Authentication */}
         <Route
           path="/login"
           element={<Login />}
