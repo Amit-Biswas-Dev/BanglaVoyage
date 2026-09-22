@@ -8,6 +8,7 @@ import {
   FaUsers,
 } from "react-icons/fa";
 
+import Navbar from "../components/Navbar";
 const destinations = [
   {
     name: "Cox's Bazar",
@@ -75,6 +76,8 @@ const packages = [
 const Home = () => {
   return (
     <div className="min-h-screen bg-white text-slate-800">
+
+        <Navbar/>
       {/* ================= HERO ================= */}
       <section className="relative min-h-[680px] overflow-hidden">
         {/* Background */}
