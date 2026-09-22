@@ -14,28 +14,28 @@ const destinations = [
     name: "Cox's Bazar",
     location: "Chattogram",
     image:
-      "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=800&q=80",
+      "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRh1W_r3SFg2wXK105Rb_arjqTzx2eZ3RnxitapwABjGn6HVMikAN5xtw-oJh8FuIyPg5w7vAUVakea-MA",
     tours: "24 Tours",
   },
   {
     name: "Sajek Valley",
     location: "Rangamati",
     image:
-      "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=800&q=80",
+      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR_Ysy584McJMo8aFGrdm2y1ENX1Wi7RXOqMXgrW80PfIfAvf8gmgcf_4d6o0egjtjUzZPs7hZxE3bATps",
     tours: "18 Tours",
   },
   {
     name: "Sylhet",
     location: "Sylhet",
     image:
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
+      "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSxr7FxvO2UTE7WO-7rnn-XigC3PFm3iUuxFpyIUJOoSiuf85i39lHO6AcVjagCcwBydqCYUPiSs-jI4CE",
     tours: "16 Tours",
   },
   {
     name: "Bandarban",
     location: "Chattogram",
     image:
-      "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTQkAt9JL5RN875FUJvWHQ2QPxfXYXaYjPHxpRRY00pM2bSncaX4PV32w7yESl_z6Fe5ilLcBj2IeIGjXw",
     tours: "21 Tours",
   },
 ];
@@ -85,7 +85,7 @@ const Home = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2000&q=90')",
+              "url('https://unsplash.com/photos/a-deer-standing-in-the-middle-of-a-forest-mNVk2uupXs0')",
           }}
         />
 
